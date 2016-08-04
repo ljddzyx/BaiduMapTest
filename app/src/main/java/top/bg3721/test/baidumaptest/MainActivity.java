@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //定义Maker坐标点
         LatLng point = new LatLng(apoint.getLat(), apoint.getLng());
         //构建Marker图标
-        BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
+        BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_diamond_black);
         //构建MarkerOption，用于在地图上添加Marker
         OverlayOptions option = new MarkerOptions().position(point).icon(bitmap);
         //在地图上添加Marker，并显示
